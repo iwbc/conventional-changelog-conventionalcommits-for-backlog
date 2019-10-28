@@ -88,7 +88,7 @@ function getWriterOpts (config) {
       }
 
       if (typeof commit.hash === `string`) {
-        commit.shortHash = commit.hash.substring(0, 7)
+        commit.shortHash = commit.hash.substring(0, 10)
       }
 
       if (typeof commit.subject === `string`) {
